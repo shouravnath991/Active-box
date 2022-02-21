@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+p, a, span{
+    font-family: 'Raleway', sans-serif;
+}
+/* ............................................Menu Css start................................................. */
+ .navbar{
+    background: #E84545;
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2c2727;
+} 
+/* ............................................Menu Css end................................................. */
+
+/* .....................................Slider Css start............................................. */
+.slider{
+    background: url(img/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    position: relative;
+}
+.slider::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(41, 45, 72, 0.9);
+}
+.slider_contant{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.slider_contant h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.slider_contant p {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 45px;
+    background: #E84545;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+    margin-top: 75px;
+}
+.btn:hover{
+    background: #fff;
+    color: #E84545;
+    
+}
+/* .....................................Slider Css end............................................. */
+
+/* .....................................Feature Css start ......................................... */
+.feature_items{
+    margin-bottom: 70px;
+}
+.feature_items i{
+    font-size: 50px;
+    color: #E84545;
+}
+.feature_items .feature_contant h5 {
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.feature_items .feature_contant p{
+    color: #6c7279;
+    font-size: 15px;
+}
+/* .....................................Feature Css end ......................................... */
+
+/* ......................................Work css start......................................... */
+.work_item {
+    display: inline-block;
+    position: relative;
+    width: 332px;
+    margin-bottom: 4px;
+}
+.work_contant{
+    height: 0;
+    width: 100%;
+    background: rgba(232, 69, 69, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.work_item:hover .work_contant{
+    opacity: 1;
+    height: 100%;
+} 
+.work_contant h5{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.work_contant p{
+    font-size: 14px;
+}
+/* ......................................Work css end......................................... */
+
+/* .......................................Team Css start...................................... */
+.team_content{
+    margin-top: 20px;
+}
+.team_content h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #2d3033;
+}
+.team_content span{
+    color: #e84545;
+    font-size: 13px;
+}
+.team_content p{
+    color: #6c7279;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.team_icon a{
+    color: #C6CACC;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #C6CACC;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.team_icon a:hover{
+    background: #e84545;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* .......................................Team Css end...................................... */
+
+/* .......................................Client Css Start.................................. */
+.client_item{
+    display: flex;
+}
+.client_content {
+    background: #53354A;
+    color: #fff;
+    padding: 26px 0;
+}
+.client_img{
+    max-width: 100%;
+    
+}
+.client_text {
+    margin-left: 45px;
+    position: relative;
+    top: 25px;
+}
+.client_text h3{
+    font-size: 36px;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+}
+.client_text p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* .......................................Client Css End.................................. */
+
+/* .......................................Download Css start............................... */
+.download_item h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.download_item p{
+    font-size: 13px;
+    font-weight: 700;
+}
+.download_btn{
+    margin-top: 20px;
+    border: 2px solid #E84545;
+    padding: 20px 60px;
+}
+/* .......................................Download Css End............................... */
+
+/* ......................................Footer Css Start................................. */
+.footer{
+    background: #3A3E64;
+    color: #fff;
+}
+.footer_part_01 h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer_part_01 .pre01 {
+    margin: 0 105px;
+}
+.footer_part_01 p {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0 37px;
+}
+/* ......................................Footer Css End................................. */
+
+/* ......................................Copyright Css Start............................. */
+.copyright{
+    background: #313454;
+    color: #fff;
+}
+.copyright p{
+    font-weight: 200;
+    font-size: 12px;
+    margin: 0 30px;
+}
+/* ......................................Copyright Css End............................. */
